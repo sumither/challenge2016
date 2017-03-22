@@ -104,7 +104,7 @@ function checkDistributionPermision(){
 
   var distributor2 = new DistributorFactory(['INDIA'],['TAMILNADU-INDIA'],[distributor1]);
 
-  var distributor3 = new DistributorFactory(['HUBLI-KARNATAKA-INDIA'],[],[distributor1,distributor2]);
+  var distributor3 = new DistributorFactory(['WADI-KARNATAKA-INDIA'],[],[distributor1,distributor2]);
 
   console.log('Checking permision for distributor1 : ', distributor1.checkPermission('CHICAGO-ILLINOIS-UNITEDSTATES'));
 
